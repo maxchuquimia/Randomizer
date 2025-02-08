@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511294852D570563001A1F97 /* DelayAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511294842D57055D001A1F97 /* DelayAnimationView.swift */; };
+		511294872D574D5D001A1F97 /* Delays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511294862D574D5A001A1F97 /* Delays.swift */; };
+		5112948A2D575A52001A1F97 /* Durations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511294892D575A4F001A1F97 /* Durations.swift */; };
+		5112948C2D575AD8001A1F97 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5112948B2D575AD5001A1F97 /* Directions.swift */; };
+		512BFE0B2D56FC21005AAF89 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512BFE0A2D56FC1F005AAF89 /* SettingsView.swift */; };
 		516EB5C62C0EBBD300D4E0B7 /* RandomizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516EB5C52C0EBBD300D4E0B7 /* RandomizerApp.swift */; };
 		516EB5C82C0EBBD300D4E0B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516EB5C72C0EBBD300D4E0B7 /* ContentView.swift */; };
 		516EB5CA2C0EBBD500D4E0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516EB5C92C0EBBD500D4E0B7 /* Assets.xcassets */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		511294842D57055D001A1F97 /* DelayAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimationView.swift; sourceTree = "<group>"; };
+		511294862D574D5A001A1F97 /* Delays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delays.swift; sourceTree = "<group>"; };
+		511294892D575A4F001A1F97 /* Durations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Durations.swift; sourceTree = "<group>"; };
+		5112948B2D575AD5001A1F97 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		512BFE0A2D56FC1F005AAF89 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		516EB5C22C0EBBD300D4E0B7 /* Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516EB5C52C0EBBD300D4E0B7 /* RandomizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizerApp.swift; sourceTree = "<group>"; };
 		516EB5C72C0EBBD300D4E0B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511294882D575A48001A1F97 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				511294862D574D5A001A1F97 /* Delays.swift */,
+				516EB5D52C0EC4D900D4E0B7 /* Colors.swift */,
+				511294892D575A4F001A1F97 /* Durations.swift */,
+				5112948B2D575AD5001A1F97 /* Directions.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		516EB5B92C0EBBD300D4E0B7 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +82,10 @@
 				516EB5D92C0F193F00D4E0B7 /* Info.plist */,
 				516EB5C52C0EBBD300D4E0B7 /* RandomizerApp.swift */,
 				516EB5C72C0EBBD300D4E0B7 /* ContentView.swift */,
+				512BFE0A2D56FC1F005AAF89 /* SettingsView.swift */,
+				511294882D575A48001A1F97 /* Settings */,
 				516EB5D32C0EC13B00D4E0B7 /* ViewModel.swift */,
-				516EB5D52C0EC4D900D4E0B7 /* Colors.swift */,
+				511294842D57055D001A1F97 /* DelayAnimationView.swift */,
 				516EB5C92C0EBBD500D4E0B7 /* Assets.xcassets */,
 				516EB5D72C0EDA0800D4E0B7 /* Launch Screen.storyboard */,
 				516EB5CB2C0EBBD500D4E0B7 /* Preview Content */,
@@ -149,9 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512BFE0B2D56FC21005AAF89 /* SettingsView.swift in Sources */,
 				516EB5C82C0EBBD300D4E0B7 /* ContentView.swift in Sources */,
+				511294852D570563001A1F97 /* DelayAnimationView.swift in Sources */,
+				5112948A2D575A52001A1F97 /* Durations.swift in Sources */,
 				516EB5D62C0EC4D900D4E0B7 /* Colors.swift in Sources */,
 				516EB5D42C0EC13C00D4E0B7 /* ViewModel.swift in Sources */,
+				511294872D574D5D001A1F97 /* Delays.swift in Sources */,
+				5112948C2D575AD8001A1F97 /* Directions.swift in Sources */,
 				516EB5C62C0EBBD300D4E0B7 /* RandomizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Randomizer/Preview Content\"";
-				DEVELOPMENT_TEAM = AXFS8D8E46;
+				DEVELOPMENT_TEAM = D3NCG82LUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Randomizer/Info.plist;
@@ -296,12 +324,13 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuquimianproductions.TSARandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -318,7 +347,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Randomizer/Preview Content\"";
-				DEVELOPMENT_TEAM = AXFS8D8E46;
+				DEVELOPMENT_TEAM = D3NCG82LUC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Randomizer/Info.plist;
@@ -328,12 +357,13 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chuquimianproductions.TSARandomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
